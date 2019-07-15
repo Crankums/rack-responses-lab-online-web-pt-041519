@@ -5,7 +5,7 @@ class Application
    time_arr = time.to_a
    hour = time_arr[2]
 
-   if time > 12
+   if hour > 12
      resp.write "Good Afternoon!"
    else
      resp.write "Good Morning!"
