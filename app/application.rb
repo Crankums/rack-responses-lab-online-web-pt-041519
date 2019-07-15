@@ -11,7 +11,7 @@ class Application
      resp.write "Good Morning!"
    end
    resp.finish
-   
+
  end
 
 end
